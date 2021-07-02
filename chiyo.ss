@@ -1,17 +1,6 @@
 
-(((lambda (target)
-    ((lambda (f) (f f))
-        (lambda (f)
-            (target
-                (lambda (x) ((f f) x))))))
-    (lambda (factorial)
-            (lambda (x)
-                (cond ((= x 1) 1)
-                    (else (* x (factorial (- x 1)))))))) 6)
-;
 
 
-#| 中括号是静态的确定的值，后直接跟第一元素 |#
 (
     (
         [lambda (koyuu)
@@ -50,6 +39,7 @@
 )
 
 
+#| 中括号是静态的确定的值，后直接跟第一元素 |#
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;; tests in learning ...
 
