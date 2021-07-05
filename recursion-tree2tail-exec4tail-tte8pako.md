@@ -1740,6 +1740,9 @@ seq 1 1024 | xargs -P0 -i -- bash -c "$(declare -f redoer) ; redoer 'wget -q htt
 
 # 转载遵循
 
-转载本文时，请务必注明作者以及来源： `https://segmentfault.com/a/1190000040173495`
+转载本文时，请务必注明作者以及来源：
+
+- `https://github.com/hmrg-grmh/play-my-Y-comb/discussions/3`
+- `https://segmentfault.com/a/1190000040173495`
 
 
