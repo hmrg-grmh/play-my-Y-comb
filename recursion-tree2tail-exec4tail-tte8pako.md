@@ -1400,7 +1400,7 @@ Erlang 不支持柯里化写法，也就是 `FuncE(FuncE)(X)` 这种写法，必
 ![pako-06](https://user-images.githubusercontent.com/68635334/124380854-b6fa0600-dcf1-11eb-95c0-af37ebb9bf00.png)
 
 
-试了下，下面这样用中文做标识符也能执行：
+试了下，下面这样，用中文字符作标识符的话，也能执行：
 
 ```racket
 (
